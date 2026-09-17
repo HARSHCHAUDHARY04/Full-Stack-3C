@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+.heading {
+  @apply text-3xl font-bold text-gray-800 bg-red-800;
+}
+
+.para {
+  @apply text-lg text-white m-5 bg-black p-10 ;
+} 

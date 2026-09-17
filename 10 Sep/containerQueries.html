@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+                background-color: black;
+                color: white;
+                font-size: 20px;
+            }
+
+            .container {
+                container-type: inline-size;
+            }
+
+            @container (max-width: 800px) {
+                .box {
+                    background-color: yellow;
+                    color: black;
+                    font-size: 30px;
+                }
+            }
+       
+    </style>
+</head>
+<body>
+       <div class="container">
+            <div class="box">
+                <p>This is a sample paragraph in the HTML document.</p>
+            </div>
+       </div>    
+</body>
+</html>
